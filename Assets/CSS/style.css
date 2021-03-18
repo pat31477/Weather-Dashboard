@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url("Assests/Images/BeachBackground.jpg");
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  height: 600px;
+  font-family: 'Metrophobic', sans-serif;
+  background-position: top center !important;
+  background-size: cover;
+}
+
+/* The navigation bar */
+.navbar {
+  width: 100%;
+  padding: 0px 0px;
+  margin: 0 auto;
+  height: 80px;
+}
+.navbar-dark {
+  background-color: #199e07 !important;
+  height: 85px;
+  color: rgb(0, 0, 0);
+}
+
+.display-4 {
+  color: #000000;
+  text-align: center;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.col-md-8 {
+  height: 100%;
+  margin-top: 20px;
+  padding-top: 35px;
+  margin: 0 auto;
+}
+
+.card-deck {
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+#citySearch {
+  padding-top: 35px;
+  color: #1aca23 !important;
+  height: flex;
+  margin-left: 8px;
+}
+
+.col-sm-12 {
+  margin: 0 auto;
+  background-color: #9fa39e;
+  height: flex;
+  padding-bottom: 20px;
+}
+
+.list-group-item {
+  color: #00072d;
+}
+
+.card {
+  background-color: #83f080;
+  color: rgb(0, 0, 0);
+  border: 1px solid #199e07;
+}
+
+.btn {
+  background-color:	#E8E8E8; 
+  border: none;
+  color: black;
+  text-align: center;
+  cursor: pointer; /* Pointer/hand icon */
+  width: flex;
+  display: block; /* Make the buttons appear below each other */
+}
+
+.btn:focus, .btn:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn:hover {
+  background-color: #199e07;
+  color: white;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  outline: none;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  border: none;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  margin: 0px !important;
+  background: #199e07;
+  border: none;
+  color: rgb(88, 88, 88);
+  font-size: 17px;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  color: #f1f1f1;
+  border: none;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.form-group {
+  text-align: center;
+}
+
+.card-header2 {
+  background: #199e07;
+  padding-top: 10px;
+  height: 45px;
+}
+
+.card-header3 {
+  padding-top: 10px;
+}
+
+h5 {
+color: rgb(88, 88, 88);
+text-align: center;
+font-size: 15px;
+}
+
+.fiveDayForecast {
+  padding-top: 15px;
+}
+
+.city {
+  padding-top: 20px;
+}
+
+.uvIndex {
+  padding-bottom: 20px;  
+}
+
+button {
+border: none;
+background: #199e07;
+color: white;
+margin: 1px;
+}
+
+.button:focus, .button:active {
+  outline: none;
+  box-shadow: none;
+}
+
+#weatherIcon {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.temp {
+margin: 0 auto;
+text-align: center;
+}
+
+.humid {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#weatherIconTwo {
+  width: 100%;
+  height: auto;
+}
+
+#weatherIconThree {
+  width: 100%;
+  height: auto;
+}
+
+#weatherIconFour {
+  width: 100%;
+  height: auto;
+}
+
+#weatherIconFive {
+  width: 100%;
+  height: auto;
+}
+
+#weatherIconSix {
+  width: 100%;
+  height: auto;
+}
