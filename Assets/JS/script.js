@@ -253,9 +253,40 @@ $(document).ready(function(){
           method: 'GET',
         })
         .then(function(response) {
-          // Day 1
+          // 1st Day
           var iconCode = response.list[0].weather[0].icon;
           var iconURL = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
+          $('#tempTwo').text(`Temp: ${parseInt(response.list[0].main.temp)}° F`);
+          $('#iconTwo').attr('src', iconURL);
+          $('#humidTwo').text(`Humidity: ${response.list[0].main.humidity}%`);
+          $('#uvIndex').html(`UV Index: ${response.value}`);
+          $('#weatherIconTwo').attr('src', iconURL);
+
+          //2nd Day
+          var iconCode = response.list[8].weather[0].icon;
+          var iconURL = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
+          $('#tempThree').text(`Temp: ${parseInt(response.list[8].main.temp)}° F`);
+          $('#iconThree').attr('src',iconURL);
+          $('#humidThree').text(`Humidity: ${response.list[8].main.humidity}%`);
+          $('#uvIndex').html(`UV Index: ${response.value}`);
+          $('#weatherIconThree').attr('src', iconURL);
+
+          //3rd Day
+          var iconCode = response.list[16].weather[0].icon;
+          var iconURL = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
+          $('#tempFour').text(`Temp: ${parseInt(response.list[16].main.temp)}° F`);
+          $('$iconFour').attr('src', iconURL);
+          $('#humidFour').text(`Humidity: ${response.list[16].main.humidity}%`);
+          $('#uvIndex').html(`UV Index: ${response.value}`);
+          $('#weatherIconFour').attr('src', iconUrl);
+
+          //4th Day
+          var iconCode = response.list[24].weather[0].icon;
+          var iconURL = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
+          
+          
+
+
           
 
 
