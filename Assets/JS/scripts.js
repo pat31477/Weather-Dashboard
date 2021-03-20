@@ -123,7 +123,7 @@ $(document).ready(function() {
   // Shows the Current Weather
   function currentWeather(cityName) {
     apiKey = '06606e544a946ac567964601f7ed0813';
-    const queryURL = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=imperial&appid=${apiKey}`;
+    const queryURL = 'https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=imperial&appid=${apiKey}';
     const fiveDayQueryURL = `https://api.openweathermap.org/data/2.5/forecast?q=${cityName}&units=imperial&appid=${apiKey}`;
 
     $.ajax({
@@ -138,7 +138,7 @@ $(document).ready(function() {
       const windSpeed = response.wind.speed;
       const { lat } = response.coord;
       const { lon } = response.coord;
-      const indexQueryURL = `https://api.openweathermap.org/data/2.5/uvi?lat=${lat}&lon=${lon}&appid=${apiKey}`;
+      const indexQueryURL = 'https://api.openweathermap.org/data/2.5/uvi?lat=${lat}&lon=${lon}&appid=${apiKey}';
       
 
       $('#city').text(city);
@@ -160,7 +160,7 @@ $(document).ready(function() {
     $.ajax({
       url: fiveDayQueryURL,
       method: 'GET',
-    }).then(function(response) {
+    })then(function(response) {
       // 1st Day
       var iconCode = response.list[0].weather[0].icon;
       var iconURL = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;

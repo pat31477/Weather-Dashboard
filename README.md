@@ -44,7 +44,7 @@ THEN I am again presented with current and future conditions for that city
 - The user can click the Clear Recent Searches button to clear the recently search cities and reload the application.
 
 ## Full Screen
-![](Assets/Images/FullPageApp.png?raw=true)
+![](./Assets/Images/FullPageApp.png?raw=true)
 
 
 ## Acknowledgements:
