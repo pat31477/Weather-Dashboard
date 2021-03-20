@@ -248,12 +248,23 @@ $(document).ready(function(){
         });
 
         //5th Day
+        $.ajax({
+          url: fiveDayQueryURL,
+          method: 'GET',
+        })
+        .then(function(response) {
+          // Day 1
+          var iconCode = response.list[0].weather[0].icon;
+          var iconURL = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
+          
 
 
 
 
 
 
+
+ 
 
 
       })
