@@ -283,26 +283,21 @@ $(document).ready(function(){
           //4th Day
           var iconCode = response.list[24].weather[0].icon;
           var iconURL = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
-          
-          
+          $('#tempFive').text(`Temp: ${parseInt(response.list[24].main.temp)}° F`);
+          $('#iconFive').attr('src', iconURL);
+          $('#humidFive').text(`Humidity: ${response.list[24].main.humidity}%`);
+          $('#uvIndex').html(`UV Index: ${response.value}`);
+          $('#weatherIconFive').attr('src', iconURL);
 
-
-          
-
-
-
-
-
-
-
- 
-
-
-      })
-    })
-
-
-
-
-
-})
+          //5th Day
+          var iconCode = response.list[32].weather[0].icon;
+          var iconURL = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
+          $('#tempSix').text(`Temp: ${parseInt(response.list[32].main.temp)}° F`);
+          $('#iconSix').attr('src', iconURL);
+          $('#humidSix').text(`Humidity: ${response.list[32].main.humidity}%`);
+          $('#uvIndex').html(`UV Index: ${response.value}`);
+          $('#weatherIconSix').attr('src', iconURL);
+     });
+    });
+  });
+});
