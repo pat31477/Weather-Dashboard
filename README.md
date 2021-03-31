@@ -12,6 +12,9 @@
 ## Description
 A weather dashboard that allows a user to view the current and 5 day weather in popular cities as well as cities of their choosing. The application runs in the browser and features dynamically updated HTML and CSS powered by jQuery,JS and 3rd party API's.
 
+## Technology used
+This application was built with HTML, CSS, BootStrap, JavaScript, JQuery, and Third Party API's
+
 ## User Story
 
 ```
@@ -51,12 +54,33 @@ THEN I am again presented with current and future conditions for that city
 
 Thank you to the following for their suggestions, insights, help, and keeping me focused on this assignment.
 
-Ben Durham
+* Ben Durham (https://github.com/bdurham227)
 
-Jason Barbanel
+* Gabe Thomas (https://github.com/samohtebag)
 
-Takuya Matsumoto
+* Jason Barbanel (https://github.com/Jbarbss)
 
-Gabe Thomas
+* Takuya Matsumoto (https://github.com/TakuyaMats)
 
-- - -
+## Licensing:
+
+Copyright (c) 2021 Patrick E. Walker
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
