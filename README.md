@@ -49,6 +49,9 @@ THEN I am again presented with current and future conditions for that city
 ## Full Screen
 ![](./Assets/Images/FullPageApp.png)
 
+## Application Demo
+![demo](./Assets/Images/Demo.gif?raw=true "Demo")
+
 
 ## Acknowledgements:
 
